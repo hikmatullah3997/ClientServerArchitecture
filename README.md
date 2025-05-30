@@ -2,8 +2,9 @@
 	•	Server: A multithreaded Java server that handles client requests like time, file operations, and system commands.
 	•	Client: A Java desktop app that connects to the server to send commands and receive responses.
 
-
-
+## Please do remember when you want to run the java files in NetBeans just remove the first line from the client and server java files
+package serverapp;
+package clientapp;
 
  ## The commands that should be used by client for which the server will give response
  
