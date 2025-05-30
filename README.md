@@ -7,33 +7,34 @@
 
  ## The commands that should be used by client for which the server will give response
  
-# GET:TIME                                                
+### GET:TIME                                                
 Get current time (e.g., 2025-05-29 14:33:00)
-# GET:DATE               
+### GET:DATE               
 Get current date (e.g., 2025-05-29)
-# GET:TIMESTAMP                                            
+### GET:TIMESTAMP                                            
 Get current system timestamp in milliseconds
-# GET:FILE:<filename>                                      
+### GET:FILE:<filename>                                      
 Read contents of the specified file
-# GET:FILE_LIST                                            
+### GET:FILE_LIST                                            
 List all files in the current directory
-# UPLOAD:FILE:<filename>:<file_content>                    
+### UPLOAD:FILE:<filename>:<file_content>                    
 Upload and save content to a new file
-# DELETE:FILE:<filename>                                  
+### DELETE:FILE:<filename>                                  
  Delete a specific file
-# GET:CLIENTS                                             
+### GET:CLIENTS                                             
  Get total number of connected clients
-# COMMAND:SAY_HELLO                                       
+### COMMAND:SAY_HELLO                                       
  Server responds with a hello message
-# COMMAND:SHUTDOWN_SERVER                                 
+### COMMAND:SHUTDOWN_SERVER                                 
  Shuts down the server application
-# COMMAND:LOGOUT                                          
+### COMMAND:LOGOUT                                          
  Disconnects the client from server
-# COMMAND:ECHO:<message>                                  
+### COMMAND:ECHO:<message>                                  
  Server echoes back the provided message
-# COMMAND:TIME_DIFF:<yyyy-MM-dd>                          
+### COMMAND:TIME_DIFF:<yyyy-MM-dd>                          
  Returns number of days since given date
 
 
 ## Note for using java disktop application
 To use the Java desktop application given in this repository, you have to install the JDK and the other packages needed for Java development and execution. Make sure Java is properly installed and configured on your system, whether you’re using Mac or Windows. The application is packaged as a JAR file, so to run it, you must have Java associated with .jar files or use the terminal or command prompt with the java -jar filename.jar command. The JAR must include the correct folder structure and a manifest file specifying the Main-Class to ensure it runs properly. On Mac, you can install Java using Homebrew or directly from Oracle, and on Windows, you can use the official JDK installer. Also, ensure that your system allows Java applications to run and that no firewall or security settings block the application, especially if it connects to a server.
+## The disktop application are the jar files
