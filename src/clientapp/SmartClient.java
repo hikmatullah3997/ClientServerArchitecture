@@ -1,4 +1,4 @@
-package Client;
+package clientapp;
 import java.io.*;            // For reading and writing data
 import java.net.*;           // For network communication (sockets)
 import java.awt.*;           // For layout stuff

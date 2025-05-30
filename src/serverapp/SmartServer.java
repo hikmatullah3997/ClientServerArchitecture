@@ -1,4 +1,4 @@
-package Server;
+package serverapp;
 import java.io.*;//for input and output operations
 import java.net.*; // for connection
 import java.text.SimpleDateFormat;// For date formate
