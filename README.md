@@ -33,3 +33,7 @@ Upload and save content to a new file
  Server echoes back the provided message
 # COMMAND:TIME_DIFF:<yyyy-MM-dd>                          
  Returns number of days since given date
+
+
+## Note for using java disktop application
+To use the Java desktop application given in this repository, you have to install the JDK and the other packages needed for Java development and execution. Make sure Java is properly installed and configured on your system, whether you’re using Mac or Windows. The application is packaged as a JAR file, so to run it, you must have Java associated with .jar files or use the terminal or command prompt with the java -jar filename.jar command. The JAR must include the correct folder structure and a manifest file specifying the Main-Class to ensure it runs properly. On Mac, you can install Java using Homebrew or directly from Oracle, and on Windows, you can use the official JDK installer. Also, ensure that your system allows Java applications to run and that no firewall or security settings block the application, especially if it connects to a server.
